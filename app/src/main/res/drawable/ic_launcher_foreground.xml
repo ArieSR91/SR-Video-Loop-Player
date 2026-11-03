@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:pivotX="54" android:pivotY="54" android:scaleX="0.78" android:scaleY="0.78">
+    <!-- Circular replay arrow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00EAC5"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M22,55 C22,73 36,87 54,87 C72,87 87,72 87,54 C87,36 73,21 55,21 C46,21 38,24 31,30" />
+    <!-- Arrow head -->
+    <path
+        android:fillColor="#00EAC5"
+        android:pathData="M31,30 L21,20 Q18,17 18,23 L18,40 Q18,44 22,44 L39,44 Q45,44 41,40 Z" />
+    <!-- Play symbol -->
+    <path
+        android:fillColor="#00EAC5"
+        android:pathData="M43,39 C43,35 47,33 51,35 L73,49 C78,52 78,57 73,60 L51,74 C47,77 43,74 43,69 Z" />
+    </group>
+</vector>
